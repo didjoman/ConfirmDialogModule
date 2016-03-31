@@ -1,2 +1,1 @@
-# ConfirmDialogModule
-A module to create confrim dialogs
+# Implementation of confirm dialogs !

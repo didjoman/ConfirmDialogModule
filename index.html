@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" data-semver="3.3.6" data-require="bootstrap-css@3.3.6" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Implementation of confirm dialogs !</h1>
+    <br />
+    <p>
+      <button onclick="alert('ok');" >
+        Alert Ok
+        <span class="confirm" data-header="Confirmation" data-message="Are you sure?" data-icon="ui-icon-alert">
+        </span>
+      </button>
+
+      <br /><br />
+
+      <a onclick="alert('ok2');" >
+        Alert Ok2
+        <span class="confirm" data-header="Confirmation" data-message="Are you sure?" data-icon="ui-icon-alert">
+        </span>
+      </a>
+    </p>
+  </body>
+
+</html>
